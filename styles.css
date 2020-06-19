@@ -12,6 +12,8 @@ body{
 	width: 100%;
 	margin: 0;
 	overflow-x: hidden;
+	overflow-y: scroll;
+	position: relative;
 }
 
 .container{
@@ -23,10 +25,10 @@ body{
 .subnav{
 	
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	font-family: 'PT Sans', sans-serif;
-	min-height: 0vh;
+	
 
 }
 
@@ -35,17 +37,19 @@ body{
 	font-family: 'PT Sans', sans-serif;
 	font-size: 18px;
 	font-weight: bold;
+	padding-left: 100px;
 }
 
 .right-hand{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-right: 100px;
 	
 }
 
 .right-hand p{
-	padding: 30px;
+	padding: 20px;
 	font-family: sans-serif;
 	cursor: pointer;
 }
@@ -59,7 +63,7 @@ body{
 	height: 10%;
 	top: -4px;
 	position: relative;
-	padding: 7px 14px;
+	padding: 7px 13px;
 	cursor: pointer;
 	
 }
@@ -118,7 +122,7 @@ body{
 .wrapper h2{
 	position: absolute;
 	top: 330px;
-	left: 600px;
+	left: 610px;
 	color: #fff;
 	font-family: 'PT Sans', sans-serif;
 }
@@ -126,7 +130,7 @@ body{
 .wrapper p{
 	position: absolute;
 	top: 380px;
-	left: 550px;
+	left: 575px;
 	color: #fff;
 	font-family: 'PT Sans', sans-serif;
 	text-decoration: underline;
@@ -195,7 +199,7 @@ section{
 
 .or{
 	position: absolute;
-	top: 1050px;
+	top: 1040px;
 	left: 270px;
 }
 
@@ -243,7 +247,7 @@ button.social{
 .Terms{
 	position: absolute;
 	margin: 10px;
-	left: 200px;
+	left:190px;
 	top: 1210px;
 	
 }
@@ -284,12 +288,12 @@ button.social{
 	transform: rotate(90deg);
 	transform-origin: 0 0;
 	position: absolute;
-	top: 1270px;
+	top: 1260px;
 	left: 370px;
 }
 .signup{
 	position: absolute;
-	top: 1290px;
+	top: 1280px;
 	left: 210px;
 
 }
@@ -450,24 +454,32 @@ main p{
 		padding: 0;
 	}
 
+	.left-hand{
+		padding-left: 10px;
+	}
+
+	.right-hand{
+		padding-right: 10px;
+	}
+
 	.wrapper{
 		display: block;
 		 
 	}
 	.wrapper h1{
-		left: 60px;
+		left: 55px;
 		font-size: 40px;
 	}
 
 	.wrapper i{
 		font-size: 45px;
 		top:170px;
-		left: 90px;
+		left: 85px;
 	}
 
 	.wrapper h2{
 		top: 250px;
-		left: 110px;
+		left: 105px;
 	}
 
 	.wrapper p{
@@ -501,16 +513,16 @@ main p{
 	}
 
 	.Terms {
-		top: 1150px;
-		left: 50px;
+		top: 1145px;
+		left: 40px;
 	}
 	.horizonLine{
-		top: 1210px;
+		top: 1200px;
 		left: 230px;
 	}
 	.signup{
-		top: 1240px;
-		left: 60px;
+		top: 1230px;
+		left: 70px;
 	}
 
 	.note h3{
@@ -521,7 +533,7 @@ main p{
 		width: 70%;
 		left: -220px;
 		font-weight: normal;
-		top: 260px;
+		top: 255px;
 	}
 
 	main{
@@ -551,8 +563,10 @@ main p{
 
 	.cost img{
 		position: relative;
-		top: 120px;
-		padding-right:
+		top: 140px;
+		left: -5px;
+		width: 350px;
+		height: 300px;
 	}
 
 	.plan-wrapper{
@@ -592,7 +606,7 @@ main p{
 		left: 0;
 	}
 	.tasks img{
-		width: 10px;
+		width: 20px;
 	}
 	.main-footer{
 		display: block;
