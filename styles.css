@@ -514,27 +514,27 @@ main p{
 	}
 
 	.Terms {
-		top: 1160px;
+		top: 1150px;
 		left: 40px;
 	}
 	.horizonLine{
-		top: 1220px;
+		top: 1210px;
 		left: 230px;
 	}
 	.signup{
-		top: 1250px;
+		top: 1240px;
 		left: 70px;
 	}
 
 	.note h3{
-		top: 1310px;
+		top: 1300px;
 		left: 50px;
 	}
 	.flow{
 		width: 70%;
 		left: -220px;
 		font-weight: normal;
-		top: 310px;
+		top: 320px;
 	}
 
 	main{
